@@ -10,7 +10,7 @@ wss.on('connection', (ws) => {
   // reply 
   ws.on('message', (message) => {
     if (message== 'hi'){
-      ws.send("hello");
+      ws.send("hello")
 
     }
     else if(message=='bye'){
